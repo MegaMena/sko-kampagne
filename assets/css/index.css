@@ -10,7 +10,6 @@ html, body, .screen-wrap{
 }
 header{
   margin: auto;
-  background-color: rgba(100, 0, 0, 0.5);
   width: 800px;
   display: flex;
   flex: 1;
@@ -108,4 +107,23 @@ h1 {
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
   color: #00adbf
+}
+
+#header-wrap {
+  position: relative;
+}
+
+#personal-header {
+  height: 115px;
+  width: auto;
+  position: absolute;
+  margin: 40px 120px;
+}
+
+#footprint-header {
+  height: 160px;
+  width: auto;
+  position: absolute;
+  bottom: 0px;
+  margin: -50px 200px;
 }
