@@ -9,6 +9,7 @@ html, body, .screen-wrap{
   margin: 0;
 }
 header{
+  overflow: hidden;
   margin: auto;
   width: 800px;
   display: flex;
@@ -80,12 +81,12 @@ nav{
   display: flex;
   width: 60%;
   height: 80%;
-  margin: auto 0 auto auto;
+  margin: auto auto auto 0;
 }
 
 #campaign-description {
   margin: 0 0 0 auto;
-  width: 30%;
+  width: 35%;
   height: 80%;
   margin: auto 0 auto 0;
 }
@@ -117,20 +118,27 @@ h1 {
 }
 
 #personal-header {
-  height: 40%;
-  margin: 0 auto 0 0;
+  height: 130px;
+  margin: 5% auto 0 0;
   z-index: 5;
 }
 
 #footprint-header {
-  height: 40%;
+  height: 130px;
   width: auto;
   margin: 0 0 auto auto;
   z-index: 5;
 }
 
 #pink-paint-banner {
+  top: 5%;
   height: 250px;
   width: auto;
   position: absolute;
+}
+.personal-footprint-container{
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  z-index: 10;
 }
