@@ -17,9 +17,9 @@ header{
 #front{
   margin: 0 auto 0 auto;
   width: 800px;
-  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex: 2;
+  flex-direction: row;
 }
 #shoe-container{
   align-content: center;
@@ -74,4 +74,34 @@ nav{
 .nav-shoe{
   width: 20%;
   height: 100%;
+}
+
+#shoe-picture-campaign {
+  display: flex;
+}
+
+#campaign-description {
+
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+}
+
+#campaign-ul {
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#instructions-campaign {
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #00adbf
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #00adbf
 }
