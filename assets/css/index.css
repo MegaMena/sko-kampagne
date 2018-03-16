@@ -9,12 +9,10 @@ html, body, .screen-wrap{
   margin: 0;
 }
 header{
-  overflow: hidden;
   margin: auto;
   width: 800px;
   display: flex;
   flex: 1;
-  flex-direction: column;
 }
 #front{
   margin: 0 auto 0 auto;
@@ -43,12 +41,11 @@ header{
   background-color: black;
   width: 100%;
   height: 100%;
-  -webkit-transition: 1s;
 }
 .shoe-profile:hover{
   opacity: 0;
   top: 100px;
-  -webkit-transition: 1s;
+  background-color: red;
 }
 .shoe-text{
   height: 100%;
@@ -81,12 +78,12 @@ nav{
   display: flex;
   width: 60%;
   height: 80%;
-  margin: auto auto auto 0;
+  margin: auto 0 auto auto;
 }
 
 #campaign-description {
   margin: 0 0 0 auto;
-  width: 35%;
+  width: 30%;
   height: 80%;
   margin: auto 0 auto 0;
 }
@@ -118,27 +115,21 @@ h1 {
 }
 
 #personal-header {
-  height: 130px;
-  margin: 5% auto 0 0;
-  z-index: 5;
+  height: 115px;
+  width: auto;
+  position: absolute;
+  margin: 40px 120px;
 }
 
 #footprint-header {
-  height: 130px;
+  height: 160px;
   width: auto;
-  margin: 0 0 auto auto;
-  z-index: 5;
+  position: absolute;
+  bottom: 0px;
+  margin: -50px 200px;
 }
 
 #pink-paint-banner {
-  top: 5%;
   height: 250px;
   width: auto;
-  position: absolute;
-}
-.personal-footprint-container{
-  flex-direction: column;
-  display: flex;
-  width: 80%;
-  z-index: 10;
 }
