@@ -30,6 +30,7 @@ header{
   width: 800px;
   display: flex;
   flex: 2;
+  flex-direction: row;
 }
 #shoe-container{
   padding: 1%;
@@ -77,11 +78,10 @@ nav{
 }
 
 #campaign-description {
+  margin: 0 0 0 auto;
   width: 30%;
   height: 80%;
   margin: auto 0 auto 0;
-  display: flex;
-  flex: 1;
 }
 
 p {
@@ -137,7 +137,6 @@ h1 {
   position: absolute;
   z-index: 20;
   display: flex;
-  flex: 1;
 }
 
 #blue-plaint {
@@ -145,6 +144,10 @@ h1 {
   width: 350px;
   position: relative;
   left: 50px;
+}
+
+#campaign-description {
+  column-count: 1;
 }
 
 
