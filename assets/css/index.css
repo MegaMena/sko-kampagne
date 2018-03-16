@@ -30,7 +30,6 @@ header{
   width: 800px;
   display: flex;
   flex: 2;
-  flex-direction: row;
 }
 #shoe-container{
   padding: 1%;
@@ -75,14 +74,14 @@ nav{
   display: flex;
   width: 60%;
   height: 80%;
-  margin: auto 0 auto auto;
 }
 
 #campaign-description {
-  margin: 0 0 0 auto;
   width: 30%;
   height: 80%;
   margin: auto 0 auto 0;
+  display: flex;
+  flex: 1;
 }
 
 p {
@@ -115,28 +114,38 @@ h1 {
   height: 115px;
   width: auto;
   position: absolute;
-  align-content: center;
 }
 
 #footprint-header {
   height: 160px;
   width: auto;
   position: absolute;
-  bottom: 0px;
+  top: 180px;
   margin: -50px 200px;
+  z-index: 30;
 }
 
 #pink-paint-banner {
   height: 250px;
   width: auto;
+  align-self: center;
 }
 
-.personal-footprint-container {
-  width: 800px;
-  height: 266px;
+#shoe-campaign {
+  width: 400px;
+  height: 400px;
   position: absolute;
+  z-index: 20;
+  display: flex;
+  flex: 1;
 }
 
+#blue-plaint {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  left: 50px;
+}
 
 
 /*
