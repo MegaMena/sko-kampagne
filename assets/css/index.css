@@ -162,6 +162,7 @@ h1 {
 
 
 .shoe-box0{
+  background-color: grey;
   background-image: url(../img/clan-shoe.png);
   background-size: contain;
   width: 300px;
@@ -183,6 +184,7 @@ h1 {
 }
 
   .shoe-box1{
+  background-color: purple;
   background-image: url(../img/designer-shoe.png);
   background-size: contain;
   width: 300px;
@@ -204,6 +206,7 @@ h1 {
 }
 
 .shoe-box2{
+  background-color: lightgreen;
   background-image: url(../img/jungle-shoe.png);
   background-size: contain;
   width: 300px;
@@ -225,6 +228,7 @@ h1 {
 }
 
 .shoe-box3{
+  background-color: yellow;
   background-image: url(../img/player-shoe.png);
   background-size: contain;
   width: 300px;
@@ -244,7 +248,9 @@ h1 {
   top: 100px;
   -webkit-transition: 1.5s;
 }
+
 .shoe-box4{
+  background-color: plum;
   background-image: url(../img/punk-shoe.png);
   background-size: contain;
   width: 300px;
@@ -267,6 +273,7 @@ h1 {
 
 
 .shoe-box5{
+  background-color: pink;
   background-image: url(../img/sea-shoe.png);
   background-size: contain;
   width: 300px;
@@ -288,6 +295,7 @@ h1 {
 }
 
 .shoe-box6{
+  background-color: skyblue;
   background-image: url(../img/sporty-shoe.png);
   background-size: contain;
   width: 300px;
