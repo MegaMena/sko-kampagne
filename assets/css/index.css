@@ -78,7 +78,6 @@ nav{
 }
 
 #campaign-description {
-  margin: 0 0 0 auto;
   width: 30%;
   height: 80%;
   margin: auto 0 auto 0;
@@ -150,6 +149,26 @@ h1 {
   column-count: 1;
 }
 
+#about {
+  width: 30%;
+  height: 200px;
+  margin: auto 0px auto 400px;
+}
+
+#facebook {
+  height: 30px;
+  width: auto;
+}
+
+#instagram {
+  height: 30px;
+  width: auto;
+}
+
+#twitter {
+  height: 30px;
+  width: auto;
+}
 
 /*
 
@@ -173,10 +192,6 @@ h1 {
   height: 100%;
   -webkit-transition: 2s;
 }
-
-
-
-
 
 .shoe-box0, .shoe-box1, .shoe-box2, .shoe-box3, .shoe-box4, .shoe-box5{
   background-size: contain;
