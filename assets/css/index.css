@@ -178,7 +178,7 @@ h1 {
 
 */
 .shoe-box{
-  background-image: url(../img/clan-shoe.png);
+  background-image: url(../img/akvarium-shoe.png);
   background-size: contain;
   width: 300px;
   margin: 0.5%;
@@ -211,13 +211,13 @@ h1 {
   -webkit-transition: 1.5s;
 }
 
-.shoe-box0{background-color: grey; background-image: url(../img/clan-shoe.png);}
+.shoe-box0{background-color: grey; background-image: url(../img/akvarium-shoe.png);}
 .shoe-profile0{background-image: url(../img/shoe-person-01.png);}
 
 .shoe-box1{background-color: purple; background-image: url(../img/designer-shoe.png);}
 .shoe-profile1{background-image: url(../img/shoe-person-02.png);}
 
-.shoe-box2{background-color: lightgreen; background-image: url(../img/jungle-shoe.png);}
+.shoe-box2{background-color: lightgreen; background-image: url(../img/lamborghini-shoe.png);}
 .shoe-profile2{background-image: url(../img/shoe-person-03.png);}
 
 .shoe-box3{background-color: yellow; background-image: url(../img/player-shoe.png);}
