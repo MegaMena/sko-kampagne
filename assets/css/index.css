@@ -1,3 +1,14 @@
+#about-module{
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  left: 5%;
+  top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 15;
+}
+
+
 .screen-wrap{
   overflow: hidden;
   display: flex;
@@ -32,27 +43,11 @@ header{
   flex-wrap: wrap;
   overflow: hidden;
 }
-.shoe-box{
-  width: 300px;
-  margin: 0.5%;
-  height: 300px;
-}
-.shoe-profile{
-  background-color: black;
-  width: 100%;
-  height: 100%;
-}
-.shoe-profile:hover{
-  opacity: 0;
-  top: 100px;
-  background-color: red;
+
 }
 .shoe-text{
   height: 100%;
   width: 100%;
-}
-.shoe-text:hover{
-  top: -100px;
 }
 nav{
   text-align: center;
@@ -72,6 +67,8 @@ nav{
   text-align: center;
   width: 20%;
   height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
 }
 
 #shoe-picture-campaign {
@@ -133,3 +130,73 @@ h1 {
   height: 250px;
   width: auto;
 }
+
+
+
+
+
+/*
+
+  !!! DO NOT PASS THIS POINT !!!
+
+  noone should ever walk this path
+
+*/
+.shoe-box{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile{
+  background-image: url(../img/shoe-person-05.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+
+
+
+
+
+.shoe-box0, .shoe-box1, .shoe-box2, .shoe-box3, .shoe-box4, .shoe-box5{
+  background-size: contain;
+  width: 200px;
+  margin: 0.5%;
+  height: 200px;
+}
+.shoe-profile0, .shoe-profile1, .shoe-profile2, .shoe-profile3, .shoe-profile4, .shoe-profile5{
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile0:hover, .shoe-profile1:hover, .shoe-profile2:hover, .shoe-profile3:hover, .shoe-profile4:hover, .shoe-profile5:hover{
+  opacity: 0;
+  -webkit-transition: 1.5s;
+}
+
+.shoe-box0{background-color: grey; background-image: url(../img/clan-shoe.png);}
+.shoe-profile0{background-image: url(../img/shoe-person-01.png);}
+
+.shoe-box1{background-color: purple; background-image: url(../img/designer-shoe.png);}
+.shoe-profile1{background-image: url(../img/shoe-person-02.png);}
+
+.shoe-box2{background-color: lightgreen; background-image: url(../img/jungle-shoe.png);}
+.shoe-profile2{background-image: url(../img/shoe-person-03.png);}
+
+.shoe-box3{background-color: yellow; background-image: url(../img/player-shoe.png);}
+.shoe-profile3{background-image: url(../img/shoe-person-04.png);}
+
+.shoe-box4{background-color: plum; background-image: url(../img/punk-shoe.png);}
+.shoe-profile4{background-image: url(../img/shoe-person-05.png);}
+
+.shoe-box5{background-color: pink; background-image: url(../img/sea-shoe.png);}
+.shoe-profile5{background-image: url(../img/shoe-person-06.png);}
+
+.shoe-box6{background-color: skyblue; background-image: url(../img/sporty-shoe.png);}
+.shoe-profile6{background-image: url(../img/shoe-person-07.png);}
