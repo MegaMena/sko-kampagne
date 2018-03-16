@@ -115,7 +115,7 @@ h1 {
   height: 115px;
   width: auto;
   position: absolute;
-  margin: 40px 120px;
+  align-content: center;
 }
 
 #footprint-header {
@@ -131,7 +131,11 @@ h1 {
   width: auto;
 }
 
-
+.personal-footprint-container {
+  width: 800px;
+  height: 266px;
+  position: absolute;
+}
 
 
 
