@@ -69,6 +69,8 @@ nav{
   text-align: center;
   width: 20%;
   height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
 }
 
 #shoe-picture-campaign {
