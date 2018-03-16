@@ -34,21 +34,7 @@ header{
   flex-wrap: wrap;
   overflow: hidden;
 }
-.shoe-box{
-  width: 300px;
-  margin: 0.5%;
-  height: 300px;
-}
-.shoe-profile{
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 1s;
-}
-.shoe-profile:hover{
-  opacity: 0;
-  top: 100px;
-  -webkit-transition: 1s;
+
 }
 .shoe-text{
   height: 100%;
@@ -141,4 +127,289 @@ h1 {
   display: flex;
   width: 80%;
   z-index: 10;
+}
+
+
+
+
+
+/*
+
+  !!! DO NOT PASS THIS POINT !!!
+
+  noone should ever walk this path
+
+*/
+.shoe-box{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile{
+  background-image: url(../img/shoe-person-05.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+
+
+
+
+
+
+.shoe-box0{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile0{
+  background-image: url(../img/shoe-person-01.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile0:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+  .shoe-box1{
+  background-image: url(../img/designer-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile1{
+  background-image: url(../img/shoe-person-02.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile1:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+.shoe-box2{
+  background-image: url(../img/jungle-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile2{
+  background-image: url(../img/shoe-person-03.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile2:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+.shoe-box3{
+  background-image: url(../img/player-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile3{
+  background-image: url(../img/shoe-person-04.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile3:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+.shoe-box4{
+  background-image: url(../img/punk-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile4{
+  background-image: url(../img/shoe-person-05.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile4:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+
+.shoe-box5{
+  background-image: url(../img/sea-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile5{
+  background-image: url(../img/shoe-person-06.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-profile5:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+.shoe-box6{
+  background-image: url(../img/sporty-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile6:hover{
+  opacity: 0;
+  top: 100px;
+  -webkit-transition: 1.5s;
+}
+
+.shoe-profile6{
+  background-image: url(../img/shoe-person-07.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.5s;
+}
+.shoe-box7{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile7{
+  background-image: url(../img/shoe-person-08.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box8{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile8{
+  background-image: url(../img/shoe-person-09.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box9{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile9{
+  background-image: url(../img/shoe-person-10.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box10{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile10{
+  background-image: url(../img/shoe-person-11.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box11{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile11{
+  background-image: url(../img/shoe-person-12.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box12{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile12{
+  background-image: url(../img/shoe-person-13.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
+}
+.shoe-box13{
+  background-image: url(../img/clan-shoe.png);
+  background-size: contain;
+  width: 300px;
+  margin: 0.5%;
+  height: 300px;
+}
+.shoe-profile13{
+  background-image: url(../img/shoe-person-14.png);
+  background-size: contain;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 2s;
 }
